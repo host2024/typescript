@@ -1,10 +1,12 @@
-import { getCountries } from './api/countries';
 import './App.css';
+import CountryList from './components/CountryList';
 
 function App() {
-    getCountries();
-
-    return <></>;
+    return (
+        <>
+            <CountryList />
+        </>
+    );
 }
 
 export default App;
